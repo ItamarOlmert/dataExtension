@@ -1,5 +1,7 @@
 {
     "name": "DaTA linker",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "description": "Convert current page URL to TAU proxy link, to allow more convenient access to paywalled articles for those with DaTA access.",
+    "permissions": ["tabs"]
 }
