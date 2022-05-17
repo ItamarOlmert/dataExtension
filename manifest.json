@@ -1,11 +1,13 @@
 {
     "name": "DaTA linker",
     "version": "1.0",
-    "manifest_version": 3,
+    "__chrome__manifest_version": 3,
+    "__firefox|opera__manifest_version": 2,
     "description": "Convert current page URL to TAU proxy link, to allow more convenient access to paywalled articles for those with DaTA access.",
     "permissions": ["activeTab", "tabs"],
     "background": {
-        "service_worker": "background.js"
+        "__chrome__service_worker": "background.js",
+        "__firefox|opera__scripts": ["background.js"]
     },
     "action": {
         "default_title": "Click to go to TAU"
