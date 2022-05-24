@@ -1,7 +1,7 @@
 {
     "name": "DaTA linker",
     "version": "1.0",
-    "manifest_version": 2,
+    "manifest_version": 2, 
     "description": "Convert current page URL to TAU proxy link, to allow more convenient access to paywalled articles for those with DaTA access.",
     "permissions": ["activeTab", "tabs"],
     "background": {
@@ -12,5 +12,10 @@
     },
     "icons": {
         "48": "key-icon-blk-48-stroked.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "update_url": "https://raw.githubusercontent.com/ItamarOlmert/dataExtension/blob/master/updates.json"
+        }
     }
 }

@@ -1,0 +1,12 @@
+{
+    "addons": {
+        "{e8665706-603a-4f82-9d86-3993c77e9290}": {
+            "updates": [
+                {
+                    "version": "1.0",
+                    "update_link": "https://github.com/ItamarOlmert/dataExtension/firefox-1.0.xpi"
+                }
+            ]
+        }
+    }
+}

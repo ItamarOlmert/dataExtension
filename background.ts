@@ -1,5 +1,5 @@
 function urlToTAU(url: URL): string {
-    return `${url.origin.replace(/\./g, "-")}.rproxy.tau.ac.il${url.pathname}${url.search}${url.hash}`;
+    return `${url.origin.replace(/\./g, "-")}.rproxy.tau.ac.il${url.pathname, url.search, url.hash}`;
 }
 
 chrome.browserAction.onClicked.addListener((tab) => {
