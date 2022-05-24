@@ -9,7 +9,7 @@ An extension for redirecting websites to Tel-Aviv University's proxy, thereby al
 ## FireFox
 Instillation on Mozilla FireFox is the easiest. 
 
-First, download the `data-extension-1.0.xpi` file from the `firefox-xpis` folder.
+First, download the `data-extension-1.1.xpi` file from the `firefox-xpis` folder. (Or simply click [here](https://github.com/ItamarOlmert/dataExtension/blob/master/firefox-xpis/data-extension-1.1.xpi?raw=true))
 
 Then, follow [this guide](https://extensionworkshop.com/documentation/publish/distribute-sideloading/#install-addon-from-file) to load the extension file into firefox from the folder to which it was saved.
 
@@ -18,7 +18,7 @@ Instillation on Google Chrome is a bit trickier, but doable too.
 
 Note that Chrome support for non-Web Store extensions is limited, and as such it will not automatically update. You should manually look for updates instead as need may arise and re-download the extension if there is one.
 
-Start by downloading the `extension` folder from this repository.
+Start by downloading the `extension` folder from this repository (be sure to unzip if it comes in a .zip file).
 
 Next, follow [these](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked) directions to load an unpacked extension into chrome, selecting the downloaded folder when prompted.
 
